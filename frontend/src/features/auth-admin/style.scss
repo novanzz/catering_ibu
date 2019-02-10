@@ -1,0 +1,39 @@
+$blue : #273d60;
+
+.layout{
+  background: $blue;
+  min-height: 100vh;
+}
+.card{
+  padding-top : 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.form{
+  max-width: 370px;
+  min-width : 280px;
+}
+
+@media only screen and (max-width: 600px) { 
+  .form{
+    margin-top : 120px;
+    margin-left : 20px;
+    margin-right : 20px;
+  }
+}
+@media only screen and (min-width: 600px){
+  .form{
+    margin : 220px;
+  }
+}
+@media only screen and (min-width: 800px){
+  .form{
+    margin : 220px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .form{
+    margin-top : 120px;
+    margin-left : 35%;
+  }
+}
